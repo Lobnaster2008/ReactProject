@@ -13,12 +13,12 @@ Feature: Title of your feature
   
   @addNewTask
   Scenario: Title of your scenario
-    Then la liste des taches s incremente
+    Then la tache "new task" s ajoute
 
   @deleteTask
   Scenario: Title of your scenario
     And Je clique sur le boutton supprimer
-    Then la liste des taches s dincremente
+    Then la tache "new task" est supprimee
 
   @modifySatus
   Scenario: Title of your scenario
